@@ -21,7 +21,11 @@
 
 body {
     font-family: sans-serif;
-    background: linear-gradient(0deg, var(--primary-light), var(--background-light));;
+    min-height: 100vh;
+    background: linear-gradient(0deg, var(--primary-light), var(--background-light));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: var(--text-dark);
     line-height: 1.6;
 }
